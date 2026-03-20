@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react'
 import { Star, ThumbsUp } from 'lucide-react'
-import { Button } from '@/src/components/ui/button'
+import { Button } from '@/components/ui/button'
 import SortBar from './SortBar'
-import { getApprovedReviews } from '@/src/components/lib/supabase/reviews'
+import { getApprovedReviews } from '@/components/lib/supabase/reviews'
 
 interface Review {
   id: string

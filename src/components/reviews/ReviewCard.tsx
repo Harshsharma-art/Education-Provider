@@ -1,8 +1,8 @@
 'use client'
 
 import { Star, ThumbsUp, CheckCircle } from 'lucide-react'
-import { Review } from '@/src/components/lib/reviews/mockData'
-import { getInitials, getGradient } from '@/src/components/lib/reviews/mockData'
+import { Review } from '@/components/lib/reviews/mockData'
+import { getInitials, getGradient } from '@/components/lib/reviews/mockData'
 import { useState, useEffect } from 'react'
 
 interface ReviewCardProps {

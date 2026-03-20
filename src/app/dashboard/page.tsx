@@ -2,13 +2,13 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Navbar from '@/src/components/navbar'
-import Footer from '@/src/components/footer'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/src/components/ui/card'
-import { Button } from '@/src/components/ui/button'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/src/components/ui/tabs'
+import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { User, FileText, Heart, Loader } from 'lucide-react'
-import { createClient } from '@/src/components/lib/supabase/client'
+import { createClient } from '@/components/lib/supabase/client'
 
 interface UserData {
   email?: string

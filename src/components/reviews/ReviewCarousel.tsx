@@ -2,9 +2,9 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { Button } from '@/src/components/ui/button'
+import { Button } from '@/components/ui/button'
 import ReviewCard from './ReviewCard'
-import { mockReviews } from '@/src/components/lib/reviews/mockData'
+import { mockReviews } from '@/components/lib/reviews/mockData'
 
 export default function ReviewCarousel() {
   const scrollContainer = useRef<HTMLDivElement>(null)

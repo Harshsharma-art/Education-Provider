@@ -1,21 +1,21 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/src/components/ui/card'
-import { Button } from '@/src/components/ui/button'
-import { Input } from '@/src/components/ui/input'
-import { Textarea } from '@/src/components/ui/textarea'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/src/components/ui/select'
+} from '@/components/ui/select'
 import ReviewStarRating from './ReviewStarRating'
 import LoginPromptModal from './LoginPromptModal'
-import { createClient } from '@/src/components/lib/supabase/client'
-import { submitReview, getUserReview } from '@/src/components/lib/supabase/reviews'
+import { createClient } from '@/components/lib/supabase/client'
+import { submitReview, getUserReview } from '@/components/lib/supabase/reviews'
 import { CheckCircle } from 'lucide-react'
 
 const COLLEGES = [

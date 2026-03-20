@@ -1,7 +1,7 @@
 'use client'
 
 import { Star, CheckCircle } from 'lucide-react'
-import { reviewStats } from '@/src/components/lib/reviews/mockData'
+import { reviewStats } from '@/components/lib/reviews/mockData'
 
 export default function TrustBar() {
   return (

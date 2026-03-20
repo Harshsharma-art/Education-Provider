@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Button } from '@/src/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/src/components/ui/card'
-import { Input } from '@/src/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
 import { Star, CheckCircle, Trash2 } from 'lucide-react'
 import {
   Table,
@@ -12,8 +12,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/src/components/ui/table'
-import { getPendingReviews, approveReview, rejectReview } from '@/src/components/lib/supabase/reviews'
+} from '@/components/ui/table'
+import { getPendingReviews, approveReview, rejectReview } from '@/components/lib/supabase/reviews'
 
 interface PendingReview {
   id: string

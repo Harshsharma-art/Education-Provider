@@ -2,10 +2,10 @@
 
 import { useState } from 'react'
 import { X, Check } from 'lucide-react'
-import { Button } from '@/src/components/ui/button'
-import { Input } from '@/src/components/ui/input'
-import { Checkbox } from '@/src/components/ui/checkbox'
-import { Label } from '@/src/components/ui/label'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Checkbox } from '@/components/ui/checkbox'
+import { Label } from '@/components/ui/label'
 import StarSelector from './StarSelector'
 
 interface WriteReviewModalProps {
