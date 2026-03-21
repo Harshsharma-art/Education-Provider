@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { CheckCircle2 } from 'lucide-react'
 import Link from 'next/link'
 
+
 export default function CounsellorSection() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary/10 via-background to-background">
@@ -16,22 +17,22 @@ export default function CounsellorSection() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-full blur-xl opacity-50" />
                 <img
-                  id="counsellor-photo"
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&q=80"
-                  alt="Senior Education Counsellor"
-                  className="relative w-56 h-56 rounded-full border-4 border-transparent bg-gradient-to-br from-primary via-secondary to-accent p-1 bg-clip-padding object-cover"
+                  src="/images/counsellor.png"
+                 
+                  alt="Deepak Kumar - Senior Education Counsellor"
+                  className="relative m-2 w-56 h-56 rounded-full object-cover object-center border-4 border-white shadow-xl z-10"
                 />
               </div>
 
               {/* Profile Info */}
               <div className="text-center">
-                <h3 className="text-2xl font-bold font-heading text-foreground">Rajesh Kumar</h3>
+                <h3 className="text-2xl font-bold font-heading text-foreground">Deepak Kumar</h3>
                 <p className="text-sm text-primary font-medium mt-1">Senior Education Counsellor</p>
 
                 {/* Badges */}
                 <div className="flex flex-wrap gap-3 justify-center mt-4 text-xs font-medium text-muted-foreground">
                   <span className="bg-primary/10 px-3 py-1 rounded-full">🎓 10+ Years</span>
-                  <span className="bg-primary/10 px-3 py-1 rounded-full">🏫 500+ Admits</span>
+                  <span className="bg-primary/10 px-3 py-1 rounded-full">🏫 500+ Admissions</span>
                   <span className="bg-accent/10 px-3 py-1 rounded-full">⭐ 4.9 Rating</span>
                 </div>
               </div>

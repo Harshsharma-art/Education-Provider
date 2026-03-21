@@ -1,6 +1,6 @@
 'use client'
 
-import { createClient } from '@/components/lib/supabase/client'
+import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import {
   Card,

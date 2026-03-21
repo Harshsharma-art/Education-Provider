@@ -104,7 +104,7 @@ export async function submitReview(reviewData: ReviewData) {
 }
 
 // Get user's review if exists
-export async function getUserReview() {
+export async function getUserReview(): Promise<{ review: any; error?: any }> {
   const supabase = createClient()
 
   const { data: { user } } = await supabase.auth.getUser()

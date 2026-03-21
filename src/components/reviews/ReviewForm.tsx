@@ -14,8 +14,8 @@ import {
 } from '@/components/ui/select'
 import ReviewStarRating from './ReviewStarRating'
 import LoginPromptModal from './LoginPromptModal'
-import { createClient } from '@/components/lib/supabase/client'
-import { submitReview, getUserReview } from '@/components/lib/supabase/reviews'
+import { createClient } from '@/lib/supabase/client'
+import { submitReview, getUserReview } from '@/lib/supabase/reviews'
 import { CheckCircle } from 'lucide-react'
 
 const COLLEGES = [

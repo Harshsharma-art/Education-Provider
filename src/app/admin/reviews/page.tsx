@@ -13,7 +13,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { getPendingReviews, approveReview, rejectReview } from '@/components/lib/supabase/reviews'
+import { getPendingReviews, approveReview, rejectReview } from '@/lib/supabase/reviews'
 
 interface PendingReview {
   id: string

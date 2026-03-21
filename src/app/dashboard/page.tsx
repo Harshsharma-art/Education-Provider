@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { User, FileText, Heart, Loader } from 'lucide-react'
-import { createClient } from '@/components/lib/supabase/client'
+import { createClient } from '@/lib/supabase/client'
 
 interface UserData {
   email?: string
